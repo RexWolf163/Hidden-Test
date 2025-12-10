@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a586ca5f6724159a0298ef2b3e130f8, type: 3}
+  m_Name: LevelTimer
+  m_EditorClassIdentifier: ru.vortex.unity.uiprovider::Vortex.Unity.UIProviderSystem.Presets.UserInterfacePreset
+  type: 1
+  guid: 2d4dd5b9ed0e5326796ccd7dca04961ad81f3a89ad203682afefc5cfada922b5
+  nameRecord: LevelTimer
+  description: 
+  icon: {fileID: 0}
+  uiType: 2
+  conditions:
+  - rid: 1274201153476231333
+  references:
+    version: 2
+    RefIds:
+    - rid: 1274201153476231333
+      type: {class: OnLevelStarted, ns: AppScripts.UIConditions, asm: Assembly-CSharp}
+      data: 

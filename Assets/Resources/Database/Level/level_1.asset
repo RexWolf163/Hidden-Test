@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a7bd72b782bc9146adf5f0e42e9b522, type: 3}
+  m_Name: level_1
+  m_EditorClassIdentifier: Assembly-CSharp::AppScripts.LevelSystem.LevelPreset
+  type: 1
+  guid: bf75a1c3d0743de34de183c5562a0b8f213137cb60cf9124fe0af1d3f5095e71
+  nameRecord: level_1
+  description: 
+  icon: {fileID: 21300000, guid: 5e52bd5d5e830b84aaae1b6078df8e26, type: 3}
+  poolSize: 3
+  indicateMode: 0
+  items:
+  - rid: 1274201153476231264
+  - rid: 1274201153476231265
+  - rid: 1274201153476231266
+  - rid: 1274201153476231267
+  - rid: 1274201153476231263
+  - rid: 1274201153476231268
+  timer: 120
+  references:
+    version: 2
+    RefIds:
+    - rid: 1274201153476231263
+      type: {class: Item, ns: AppScripts.LevelSystem, asm: Assembly-CSharp}
+      data:
+        name: CAMERA
+        icon: {fileID: 21300000, guid: f731508cd216a4c408ac3a9e35a77650, type: 3}
+        active: 1
+    - rid: 1274201153476231264
+      type: {class: Item, ns: AppScripts.LevelSystem, asm: Assembly-CSharp}
+      data:
+        name: CANDELL
+        icon: {fileID: 21300000, guid: 86a7cdd174196094dad25dc363250895, type: 3}
+        active: 1
+    - rid: 1274201153476231265
+      type: {class: Item, ns: AppScripts.LevelSystem, asm: Assembly-CSharp}
+      data:
+        name: MARMALADE
+        icon: {fileID: 21300000, guid: d1f80c97a9e7ce04998e173e4cb0f3c5, type: 3}
+        active: 0
+    - rid: 1274201153476231266
+      type: {class: Item, ns: AppScripts.LevelSystem, asm: Assembly-CSharp}
+      data:
+        name: NOTE
+        icon: {fileID: 21300000, guid: 475f821a5ecb91240abc68551bce4a70, type: 3}
+        active: 1
+    - rid: 1274201153476231267
+      type: {class: Item, ns: AppScripts.LevelSystem, asm: Assembly-CSharp}
+      data:
+        name: ROLLERS
+        icon: {fileID: 21300000, guid: 133f42354d87897408066e2d5223c665, type: 3}
+        active: 1
+    - rid: 1274201153476231268
+      type: {class: Item, ns: AppScripts.LevelSystem, asm: Assembly-CSharp}
+      data:
+        name: ROPE
+        icon: {fileID: 21300000, guid: 7fa12313c558fdc4e97746ecc2cbe182, type: 3}
+        active: 1

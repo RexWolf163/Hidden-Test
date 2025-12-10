@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a586ca5f6724159a0298ef2b3e130f8, type: 3}
+  m_Name: Fail
+  m_EditorClassIdentifier: ru.vortex.unity.uiprovider::Vortex.Unity.UIProviderSystem.Presets.UserInterfacePreset
+  type: 1
+  guid: c47ca5c40e3ba5bcf56385e1890c7e937abdff49247df9b859515e88c07ff19f
+  nameRecord: Fail
+  description: "\u0418\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441 \u043F\u043E\u0440\u0430\u0436\u0435\u043D\u0438\u044F"
+  icon: {fileID: 0}
+  uiType: 0
+  conditions:
+  - rid: 1274201165211369549
+  references:
+    version: 2
+    RefIds:
+    - rid: 1274201165211369549
+      type: {class: OnLevelFail, ns: AppScripts.UIConditions, asm: Assembly-CSharp}
+      data: 
